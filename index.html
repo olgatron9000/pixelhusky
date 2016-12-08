@@ -18,8 +18,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 	</head>
 	<body>
-
 		<!-- Sidebar -->
+
 			<section id="sidebar">
 				<div class="inner">
 					<nav>
@@ -28,6 +28,7 @@
 							<li><a href="#one">What we do</a></li>
 							<li><a href="#two">Upcoming Events</a></li>
 							<li><a href="#three">Get in touch</a></li>
+							<li><a href="pixel_project.html">The Pixel Project</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -35,12 +36,11 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1 style = "padding-left:180px">Pixel Husky</h1>
-							<p class="rag" style = "padding-left:180px">Pixel Husky is the first outward facing design club at the University of Washington open to all departments and majors. Our mission is to build a community for designers, and non-designers who are interested in design and prospective designers. Pixel Husky is where these groups can interact and inspire a love for design.</p>
+							<h1>Pixel Husky</h1>
+							<p class="rag">Pixel Husky is the first outward facing design club at the University of Washington open to all departments and majors. Our mission is to build a community for designers, and non-designers who are interested in design and prospective designers. Pixel Husky is where these groups can interact and inspire a love for design.</p>
 							<!-- <ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
 							</ul> -->
@@ -50,7 +50,7 @@
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="images/talks.jpg" alt="" data-position="center center" /></a>
+							<a href="#" class="image"><img src="./images/talks.JPG" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Talks</h2>
@@ -62,7 +62,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/panels.jpg" alt="" data-position="center center" /></a>
+							<a href="#" class="image"><img src="./images/panels.JPG" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Panels</h2>
@@ -74,7 +74,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/workshops.jpg" alt="" data-position="center center" /></a>
+							<a href="#" class="image"><img src="./images/workshops.jgg.JPG" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Workshops</h2>
@@ -86,7 +86,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/community.jpg" alt="" data-position="center center" /></a>
+							<a href="#" class="image"><img src="./images/community.JPG" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Community</h2>
@@ -157,7 +157,7 @@
 								<!-- deleted split -->
 								<section>
 									<h3>Email us</h3>
-									<form class="email" method="post" action="#">
+									<form id="contact-form" class="email" method="post" action="assets/php/mail.php">
 										<div class="field half first">
 											<label for="name">Name</label>
 											<input type="text" name="name" id="name" />
@@ -166,7 +166,7 @@
 											<label for="email">Email</label>
 											<input type="text" name="email" id="email" />
 										</div>
-										<div class="field">
+										<div id="#submit-message" class="field">
 											<label for="message">Message</label>
 											<textarea name="message" id="message" rows="5"></textarea>
 										</div>
@@ -211,7 +211,7 @@
 
 
 
-		<!-- Footer 
+		<!-- Footer
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu icons">
@@ -228,6 +228,7 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/mail.js"></script>
 			<script src="assets/js/main.js"></script>
 
 	</body>
